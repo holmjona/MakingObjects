@@ -20,6 +20,11 @@ namespace LearningEncapsulation {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+
+            Person p = new Person();
+            p.FirstName = "Bob";
+            MessageBox.Show(p.FirstName);
+
         }
     }
 }
