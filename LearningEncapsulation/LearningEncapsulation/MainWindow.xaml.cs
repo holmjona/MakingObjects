@@ -23,8 +23,27 @@ namespace LearningEncapsulation {
 
             Person p = new Person();
             p.FirstName = "Bob";
+            p.Personality = Person.Personalities.Euphoric;
             MessageBox.Show(p.FirstName);
 
         }
+
+        private void BtnOfMagic_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        /// <summary>
+        /// Makes stuff
+        /// </summary>
+        /// <remarks>
+        ///  This method was copied from Prof. Holmes Deliver 4 solution.
+        /// </remarks>
+        private void fillStuff() {
+
+            // Image logic that was way beyond me.
+            // used this code as a reference: https://stackoverflow.com/questions/47776996/wpf-add-images-dynamically-programmatically-to-control
+            
+        }
+
     }
 }
